@@ -11,9 +11,9 @@ git@github.com:ThallisonRhanniel/ServicoWcf.git
 ```
 Antes de iniciar o projeto, por favor instale:
 
-**Para visualizar os dados é necessário um Sistema Web. [Clique Aqui](https://github.com/ThallisonRhanniel/ValidadorHashPHP) para saber mais.**
+**Para visualização dos dados é necessário um Sistema Web. [Clique Aqui](https://github.com/ThallisonRhanniel/ValidadorHashPHP) para saber mais.**
 
-Marque todas opções relacionadas a .NET e Visual Studio:
+Ao instalar o MySql marque todas opções relacionadas a .NET e Visual Studio:
 
 [MySql](https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-web-community-5.7.19.0.msi)
 
@@ -30,6 +30,13 @@ Caso queira baixar as depedências separadamente:
   * https://dev.mysql.com/downloads/connector/net/
 
   * https://dev.mysql.com/downloads/windows/visualstudio/
+```
+Instale o EntityFramework no projeto:
+
+[EntityFramework](https://www.nuget.org/packages/entityframework/)
+
+```
+  * Install-Package EntityFramework
 ```
 
 ### Instalando
